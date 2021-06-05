@@ -1,0 +1,12 @@
+[target = _blank ]{
+    color: yellow;
+}
+
+ul li {
+    font-weight: bold;
+}
+
+.item > span {
+    font-size: 18px;
+    font-style: italic;
+}

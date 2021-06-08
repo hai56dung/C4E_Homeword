@@ -1,0 +1,94 @@
+.nav-Menu{
+    display: flex;
+    background-color: rgb(194, 144, 144);
+    text-align: center;
+    justify-content: center;
+
+}
+
+.Item{
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Item1{
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-Menu div:hover{
+    background-color: greenyellow;
+}
+
+.Item.Position{
+    position: relative;
+}
+
+.sub-Menu{
+    display: none;
+    position: absolute;
+    top: 28px;
+    left:0;
+    background-color: rgb(194, 144, 144);
+}
+
+.Item.Position:hover .sub-Menu{
+    display: block;
+    background-color: rgb(194, 144, 144);
+}
+
+.sub-Menu2{
+    display: none;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    background-color:rgb(194, 144, 144);
+}
+
+.Item.Position:hover .sub-Menu2{
+    display: block;
+    background-color: rgb(194, 144, 144);
+}
+
+.sub-Menu2 div:hover{
+    background-color: greenyellow;
+}
+
+.sub-Menu3{
+    display: none;
+    position: absolute;
+    background-color:  rgb(194, 144, 144);
+    top: 0px;
+    left: 91px;
+}
+
+.Item1.Position1{
+    position: relative;
+}
+
+.Item1.Position1:hover .sub-Menu3{
+    display: block;
+    background-color: rgb(194, 144, 144);
+}
+
+.Item1.Position2{
+    position: relative;
+}
+
+.sub-Menu4{
+    display: none;
+    position: absolute;
+    background-color:  rgb(194, 144, 144);
+    top: 0px;
+    left: 79px;
+}
+
+.Item1.Position2:hover .sub-Menu4{
+    display: block;
+    background-color: rgb(194, 144, 144);
+}
+
